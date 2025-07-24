@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
     <header>
         <h1>Relatório da Atividade Flexbox</h1>
-        <p><strong id="nome">Nome:</strong> Cristhian Rangel Fernandes</p>
+        <p class="autor">
+            <strong id="nome">Nome:</strong>
+            <a href="https://www.instagram.com/cristhianrf_/" target="_blank" rel="noopener noreferrer">
+                Cristhian Rangel Fernandes
+            </a>
+        </p>
     </header>
 
     <section id="jogos-escolhidos">
@@ -18,13 +24,13 @@
         <article>
             <h3>Play Flex Box Adventure - CSS Game to Learn Flexbox</h3>
             <p><strong>Link:</strong> <a href="https://codingfantasy.com/games/flexboxadventure/play" target="_blank" rel="noopener noreferrer">Saiba Mais!</a></p>
-            <p><strong>Justificativa:</strong> Explique aqui o motivo pelo qual escolheu este jogo para treinar Flexbox.</p>
+            <p><strong>Justificativa:</strong> Escolhi este jogo pois achei ele mais interessante entre os 4 propostos pelo.</p>
         </article>
 
         <article>
-            <h3>Nome do Jogo 2</h3>
-            <p><strong>Link:</strong> <a href=" " target="_blank" rel="noopener noreferrer">Saiba Mais!</a></p>
-            <p><strong>Justificativa:</strong> Explique aqui o motivo pelo qual escolheu este segundo jogo.</p>
+            <h3>Flex Box Froggy</h3>
+            <p><strong>Link:</strong> <a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer">Saiba Mais!</a></p>
+            <p><strong>Justificativa:</strong> Escolhi este jogo pois aparenta ser mais divertido.</p>
         </article>
     </section>
 
@@ -34,37 +40,37 @@
         <article>
             <h3>Flex Box Adventure - Nível XII</h3>
             <img src="imgs/print game - 3.png" alt="Print do primeiro jogo Nível 12" />
-            <p>Descrição do porquê esse nível foi desafiador para você.</p>
+            <p>Foi difícil decorar as siglas flex-direction e justify-content para usar pela primeira vez.</p>
         </article>
 
         <article>
             <h3>Flex Box Adventure - Nível XVII</h3>
             <img src="imgs/print game - 2.png" alt="Print do Jogo 1 Nível 17" />
-            <p>Descrição do porquê esse nível foi desafiador para você.</p>
+            <p>Foi difícil usar a sigla align-items em conjunto com outras.</p>
         </article>
 
         <article>
             <h3>Flex Box Adventure - Nível XXIV</h3>
             <img src="imgs/print game.png" alt="Print do Jogo 1 Nível 24" />
-            <p>Descrição do porquê esse nível foi desafiador para você.</p>
+            <p>Nunca utilizei o "flex-wrap" então tive dificuldade de usar todos eles juntos no código, e isso acabou dificultando o uso.</p>
         </article>
 
         <article>
-            <h3>Jogo 2 - Nível VII</h3>
+            <h3>Flex Box Froggy - Nível VII</h3>
             <img src="imgs/game.png" alt="Print do Jogo 2 Nível 7" />
-            <p>Descrição do porquê esse nível foi desafiador para você.</p>
+            <p>Foi difícil decorar a sigla "space-around" do justify-content para usar pela primeira vez.</p>
         </article>
 
         <article>
-            <h3>Jogo 2 - Nível XI</h3>
+            <h3>Flex Box Froggy - Nível XI</h3>
             <img src="imgs/game 2.png" alt="Print do Jogo 2 Nível 11" />
-            <p>Descrição do porquê esse nível foi desafiador para você.</p>
+            <p>Foi difícil decorar a sigla "flex-end" do justify-content para usar pela primeira vez.</p>
         </article>
 
         <article>
-            <h3>Jogo 2 - Nível IXX</h3>
+            <h3>Flex Box Froggy - Nível IXX</h3>
             <img src="imgs/game 3.png" alt="Print do Jogo 2 Nível 19" />
-            <p>Descrição do porquê esse nível foi desafiador para você.</p>
+            <p>Tive dificuldade na utilização do flex-wrap.</p>
         </article>
     </section>
 
@@ -73,7 +79,7 @@
 
         <h3>Propriedades CSS utilizadas</h3>
         <ul>
-            <li><strong>display: flex;</strong> — Define o container flexível.</li>
+            <li><strong>display: flex;</strong> Define o container flexível.</li>
             <li><strong>flex-direction:</strong> Controla a direção dos itens (row, column, etc).</li>
             <li><strong>justify-content:</strong> Alinha itens horizontalmente.</li>
             <li><strong>align-items:</strong> Alinha itens verticalmente.</li>
@@ -84,12 +90,12 @@
 
         <h3>Aplicação prática</h3>
         <p>
-            Por exemplo, para criar um menu de navegação responsivo, eu usaria Flexbox para alinhar os itens horizontalmente no desktop e, ao reduzir a largura da tela, permitir que os itens quebrem para uma segunda linha usando <code>flex-wrap</code>. Também usaria <code>justify-content</code> para espaçar os links de forma uniforme e <code>align-items</code> para centralizar verticalmente. Isso facilita muito a adaptação do layout em diferentes tamanhos de tela.
+            Em uma galeria de fotos, eu usaria o Flexbox para alinhar as imagens lado a lado em telas grandes, com <code>display: flex</code> e <code>flex-wrap: wrap</code> para permitir que as imagens quebrem linha conforme o espaço disponível. Aplicaria <code>justify-content: center</code> ou <code>space-between</code> para distribuir as fotos de forma equilibrada, e <code>align-items: stretch</code> para manter as alturas consistentes. Isso permite que a galeria se adapte automaticamente em celulares, tablets ou computadores, mantendo o layout organizado e responsivo sem a necessidade de media queries complexas.
         </p>
-
     </section>
-</body>
+</div>
 <footer>
-    &copy; 2025 Cristhian Fernandes
+    &copy; 2025 Cristhian Fernandes. Todos os direitos reservados.
 </footer>
+</body>
 </html>
